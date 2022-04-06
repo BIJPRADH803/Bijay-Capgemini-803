@@ -2,8 +2,10 @@ package com.cg.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="trainne_table")
 public class Trainee {
 	@Id
 	private int traineeId;
