@@ -1,5 +1,6 @@
 package com.cg.entities;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -8,6 +9,7 @@ import javax.persistence.Table;
 @Table(name="trainne_table")
 public class Trainee {
 	@Id
+	@Column(name="traine_Id")
 	private int traineeId;
 	private String traineeName;
 	private String traineeDomain;
